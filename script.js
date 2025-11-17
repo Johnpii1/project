@@ -1,4 +1,4 @@
-
+//FOR SLIDE 
   const slider = document.getElementById("slider");
   const nextBtn = document.getElementById("nextBtn");
   const backBtn = document.getElementById("backBtn");
