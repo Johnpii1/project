@@ -45,7 +45,7 @@
                     type="search" id="form" placeholder="what are you looking for?">
             </label>
             <!--SEARCH BUTTON-->
-            <button type="button"
+            <button id="search_btn"
                 class="hidden bg-orange-400 hover:bg-orange-600 transition duration-300 md:block md:rounded-lg text-white md:w-[8vw]">Search</button>
             <!--HEADER ICON-->
             <div class="hidden cursor-pointer sm:hidden md:flex  md:gap-8 md:text-2xl">
@@ -62,7 +62,8 @@
 
 
     <!--text-->
-    <h6 class="px-4 py-2 text-sm "><a href="./index.html">Home ›</a><a class="px-3 text-gray-500" href="#">Phone &
+    <h6 class="px-4 py-2 text-sm "><a href="./index.html">Home<span class="text-xl font-bold"> ›</span></a><a
+            class="px-3 text-gray-500" href="#">Phone &
             Tablets</a></h6>
 
     <!--HEAD-->
@@ -108,14 +109,14 @@
     <!--PHONE PICTURE HEADER-->
     <div class="h-45 md:bg-white  md:m-5 md:rounded-lg   mt-2 ">
         <div class="flex justify-between px-9 py-4 bg-black text-white w-100  md:rounded-lg">
-            <h3 class="text-sm">Limited Stock Deals</h3>
-            <p class="text-sm"><a href="#">See All <span class="text-lg">»</span></a></p>
+            <h3 class="text-sm md:text-lg">Limited Stock Deals</h3>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
         </div>
         <!--PHONE PICTURE-->
 
         <div class="relative w-full">
-            <div id="slider"
-                class="h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+            <div
+                class="slider h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
                 <div
                     class="bg-white h-100 w-[200px] md:h-[45vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
                     <a href="#"><img class="rounded-t-lg" src="./1 (1).jpg" alt="Mobile">
@@ -223,13 +224,13 @@
                 </div>
             </div>
             <!--BACK-->
-            <button id="backBtn"
-                class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
                 &lt;
             </button>
             <!--NEXT-->
-            <button id="nextBtn"
-                class=" hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
                 &gt;
             </button>
         </div>
@@ -269,17 +270,17 @@
     <!--Samsang Official Store PHONE PICTURE HEADER-->
     <div class="h-45 md:bg-white md:m-5  md:rounded-lg lg:h-[66vh]">
         <div class="flex justify-between px-9 py-4 bg-black text-white w-100  md:rounded-lg">
-            <h3 class="text-sm hidden md:flex">Samsung Official Store | Exclusive Platinum Partner</h3>
+            <h3 class="text-lg hidden md:flex">Samsung Official Store | Exclusive Platinum Partner</h3>
             <div class="flex flex-col md:hidden">
                 <h3 class="text-sm">Samsung Official Store</h3>
                 <h3 class="text-xs">Exclusive Platinum Partner</h3>
             </div>
-            <p class="text-sm"><a href="#">See All <span class="text-lg">»</span></a></p>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
         </div>
         <!--PHONE PICTURE-->
         <div class="relative w-full">
-            <div id="slider2"
-                class="h-80   md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+            <div
+                class="slider h-80   md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
                 <div
                     class="bg-white h-100 w-[200px] md:h-[45vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
                     <a href="#"><img class="rounded-t-lg" src="./sam(2).jpg" alt="Mobile">
@@ -387,13 +388,13 @@
                 </div>
             </div>
             <!--BACK-->
-            <button id="backBtn2"
-                class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
                 &lt;
             </button>
             <!--NEXT-->
-            <button id="nextBtn2"
-                class=" hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
                 &gt;
             </button>
         </div>
@@ -435,13 +436,13 @@
     <!--TOP DEAL-->
     <div class="h-45 md:bg-white md:m-5 md:rounded-lg md:h-[66vh]">
         <div class="flex justify-between px-9 py-4 bg-black text-white w-100  md:rounded-lg">
-            <h3 class="text-sm">Top Deals</h3>
-            <p class="text-sm"><a href="#">See All <span class="text-lg">»</span></a></p>
+            <h3 class="text-sm md:text-lg">Top Deals</h3>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
         </div>
         <!--PHONE PICTURE-->
         <div class="relative w-full">
-            <div id="slider3"
-                class=" h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+            <div
+                class="slider h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
                 <div
                     class="bg-white h-100 w-[200px] md:h-[45vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
                     <a href="#"><img class="rounded-t-lg" src="./1 (1).jpg" alt="Mobile">
@@ -549,13 +550,13 @@
                 </div>
             </div>
             <!--BACK-->
-            <button id="backBtn3"
-                class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
                 &lt;
             </button>
             <!--NEXT-->
-            <button id="nextBtn3"
-                class=" hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
                 &gt;
             </button>
         </div>
@@ -601,13 +602,13 @@
     <!--SMART PHONE-->
     <div class="h-45 md:bg-white md:m-5 md:rounded-lg md:h-[66vh]">
         <div class="flex justify-between px-9 py-4 bg-black text-white w-100  md:rounded-lg">
-            <h3 class="text-sm">Smart Phones</h3>
-            <p class="text-sm"><a href="#">See All <span class="text-lg">»</span></a></p>
+            <h3 class="text-sm md:text-lg">Smart Phones</h3>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
         </div>
         <!--PHONE PICTURE-->
         <div class="relative w-full">
-            <div id="slider4"
-                class="h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+            <div
+                class="slider h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
                 <div
                     class="bg-white h-100 w-[200px] md:h-[45vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
                     <a href="#"><img class="rounded-t-lg" src="./1 (1).jpg" alt="Mobile">
@@ -715,13 +716,13 @@
                 </div>
             </div>
             <!--BACK-->
-            <button id="backBtn4"
-                class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
                 &lt;
             </button>
             <!--NEXT-->
-            <button id="nextBtn4"
-                class=" hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
                 &gt;
             </button>
         </div>
@@ -765,13 +766,13 @@
     <!--POWER BANK-->
     <div class="h-45 md:bg-white md:m-5 md:rounded-lg md:h-[66vh]">
         <div class="flex justify-between px-9 py-4 bg-black text-white w-100  md:rounded-lg">
-            <h3 class="text-sm">Power Bank</h3>
-            <p class="text-sm"><a href="#">See All <span class="text-lg">»</span></a></p>
+            <h3 class="text-sm md:text-lg">Power Bank</h3>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
         </div>
         <!--PHONE PICTURE-->
         <div class="relative w-full">
-            <div id="slider5"
-                class="h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+            <div
+                class="slider h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
                 <div
                     class="bg-white h-100 w-[200px] md:h-[45vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
                     <a href="#"><img class="rounded-t-lg" src="./power(1).jpg" alt="Power Bank">
@@ -879,13 +880,13 @@
                 </div>
             </div>
             <!--BACK-->
-            <button id="backBtn5"
-                class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
                 &lt;
             </button>
             <!--NEXT-->
-            <button id="nextBtn5"
-                class=" hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
                 &gt;
             </button>
         </div>
@@ -896,15 +897,15 @@
     </div>
 
     <!--Accessories & More-->
-    <div class="h-45 md:bg-white md:m-5 md:rounded-lg  lg:h-[65vh]">
+    <div class="h-45 md:bg-white md:m-5 md:rounded-lg md:[63vh] xl:h-[66vh]">
         <div class="flex justify-between px-9 py-4 bg-black text-white w-100  md:rounded-lg">
-            <h3 class="text-sm">Accessories & More</h3>
-            <p class="text-sm"><a href="#">See All <span class="text-lg">»</span></a></p>
+            <h3 class="text-sm md:text-lg">Accessories & More</h3>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
         </div>
         <!--PHONE PICTURE-->
         <div class="relative w-full">
-            <div id="slider6"
-                class="h-80  md:h-[53vh]  lg:h-[55vh]   m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+            <div
+                class="slider h-80  md:h-[53vh]  lg:h-[55vh]   m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
                 <div
                     class="bg-white h-100 w-[200px] md:h-[45vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
                     <a href="#"><img class="rounded-t-lg" src="./1 (1).jpg" alt="Mobile">
@@ -1012,13 +1013,13 @@
                 </div>
             </div>
             <!--BACK-->
-            <button id="backBtn6"
-                class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
                 &lt;
             </button>
             <!--NEXT-->
-            <button id="nextBtn6"
-                class=" hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
                 &gt;
             </button>
         </div>
@@ -1031,13 +1032,13 @@
     <!--Feature Phones-->
     <div class="h-45 md:bg-white md:m-5 md:rounded-lg md:h-[66vh]">
         <div class="flex justify-between px-9 py-4 bg-black text-white w-100  md:rounded-lg">
-            <h3 class="text-sm">Feature Phones</h3>
-            <p class="text-sm"><a href="#">See All <span class="text-lg">»</span></a></p>
+            <h3 class="text-sm md:text-lg">Feature Phones</h3>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
         </div>
         <!--PHONE PICTURE-->
         <div class="relative w-full">
-            <div id="slider7"
-                class="h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+            <div
+                class="slider h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
                 <div
                     class="bg-white h-100 w-[200px] md:h-[45vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
                     <a href="#"><img src="./1 (1).jpg" alt="Mobile">
@@ -1145,13 +1146,13 @@
                 </div>
             </div>
             <!--BACK-->
-            <button id="backBtn7"
-                class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
                 &lt;
             </button>
             <!--NEXT-->
-            <button id="nextBtn7"
-                class=" hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
                 &gt;
             </button>
         </div>
@@ -1205,16 +1206,16 @@
     </div>
 
 
-    <!--Feature Phones-->
-    <div class="h-45 md:hidden">
+    <!--POCO Phones-->
+    <div class="h-45 md:bg-white md:m-5 md:rounded-lg md:h-[66vh]">
         <div class="flex justify-between px-9 py-4 bg-black text-white w-100">
-            <h3 class="text-sm">Poco Official Store</h3>
-            <p class="text-sm"><a href="#">See All <span class="text-lg">»</span></a></p>
+            <h3 class="text-sm md:text-lg">Poco Official Store</h3>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
         </div>
         <!--PHONE PICTURE-->
         <div class="relative w-full">
-            <div id="slider8"
-                class="h-80  lg:h-[40vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+            <div
+                class="slider h-80  lg:h-[40vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
                 <div
                     class="bg-white h-100 w-[200px] md:h-[45vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
                     <a href="#"><img src="./1 (1).jpg" alt="Mobile">
@@ -1322,13 +1323,13 @@
                 </div>
             </div>
             <!--BACK-->
-            <button id="backBtn8"
-                class="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
                 &lt;
             </button>
             <!--NEXT-->
-            <button id="nextBtn8"
-                class=" hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
                 &gt;
             </button>
         </div>
@@ -1337,6 +1338,340 @@
     </div>
     </div>
     </div>
+
+
+    <!--ITEL PHNONES-->
+    <div class="h-45 md:bg-white md:m-5 md:rounded-lg md:h-[65vh]  xl:h-[66vh]">
+        <div class="flex justify-between px-9 py-4 bg-black text-white w-100  md:rounded-lg">
+            <h3 class="text-sm md:text-lg">Itel Official Store</h3>
+            <p class="text-sm md:text-lg"><a href="#">See All <span class="text-lg">»</span></a></p>
+        </div>
+        <!--PHONE PICTURE-->
+        <div class="relative w-full">
+            <div
+                class="slider h-80  md:h-[53vh]  xl:h-[55vh] m-1 flex overflow-x-auto md:overflow-y-hidden  snap-x snap-mandatory space-x-2 p-2 ">
+                <div
+                    class="bg-white h-100 w-[200px] md:h-[30vh] flex-shrink-0 snap-start md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)] md:rounded-sm">
+                    <a href="#"><img class="rounded-t-lg" src="./1 (1).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">poco M7 , 6.9" 6GB RAM / ...</span>
+                        <span class="m-2 text-sm">₦ 174,800</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1.jpg" alt="Mobile">
+                        <span class="m-2 text-sm">itel City 100 7.65mm" Slim ...</span>
+                        <span class="m-2 text-sm">₦ 100,500</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./andior(1).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">redbeat REDBEAT C1 Tabl...</span>
+                        <span class="m-2 text-sm">₦ 95,900</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1(6).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">Samsung Galaxy A07 6.7" ...</span>
+                        <span class="m-2 text-sm">₦ 139,310</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1 (5).jpg" alt="Mobile">
+                        <span class="m-2 text-xs">XIAOMI Redmi Note 14 Pro / ...</span>
+                        <span class="m-2 text-sm">₦ 568,605</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1 (3).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">Samsung Galaxy A17 6.9" ...</span>
+                        <span class="m-2 text-sm">₦ 200,250</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1 (4).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">Realme C71 - 6.67"HD+ -8...</span>
+                        <span class="m-2 text-sm">₦ 185,850</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1(7).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">Infinix Note 50 6.78" 8GB R...</span>
+                        <span class="m-2 text-sm">₦ 298,150</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./infinix(1).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">Infinix Hot 50 pro + 6.78"...</span>
+                        <span class="m-2 text-sm">₦ 244,555</span>
+                    </a>
+                </div>
+                <div
+                    class="bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./ipad(1).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">XIAOMI Redmi Pad SE 4G ..</span>
+                        <span class="m-2 text-sm">₦ 197,200</span>
+                    </a>
+                </div>
+                <div
+                    class="hidden md:flex bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1(10).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">Philly 20000mAh Power C...</span>
+                        <span class="m-2 text-sm">₦ 6,850</span>
+                    </a>
+                </div>
+                <div
+                    class="hidden md:flex bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./kid(1).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">TiLECC Android 12 7 inch...</span>
+                        <span class="m-2 text-sm">₦ 54,200</span>
+                    </a>
+                </div>
+                <div
+                    class="hidden md:flex bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1(12).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">Zealot S51 Wireless BT sp...</span>
+                        <span class="m-2 text-sm">₦ 20,200</span>
+                    </a>
+                </div>
+                <div
+                    class="hidden md:flex bg-white h-auto w-[200px] md:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./1(13).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">Kingnote 20000mAh Pow...</span>
+                        <span class="m-2 text-sm">₦ 7,100</span>
+                    </a>
+                </div>
+                <div
+                    class="hidden md:flex bg-white h-auto w-[200px] lg:h-[45vh] flex-shrink-0 snap-start  md:hover:rounded-md md:w-[200px] md:hover:shadow-[0_0_50px_0_rgba(0,0,0,0.4)]">
+                    <a href="#"><img class="rounded-t-lg" src="./ipad(2).jpg" alt="Mobile">
+                        <span class="m-2 text-sm">AGM PAD T1 Android 14 ...</span>
+                        <span class="m-2 text-sm">₦ 141,800</span>
+                    </a>
+                </div>
+            </div>
+            <!--BACK-->
+            <button
+                class="backBtn hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:-translate-x-2 hover:bg-gray-100 hover:text-black bg-transparent text-white px-4 py-2 rounded-full text-md">
+                &lt;
+            </button>
+            <!--NEXT-->
+            <button
+                class="nextBtn hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 transition-transform duration-300 hover:translate-x-2 bg-transparent hover:bg-gray-100 hover:text-black text-white px-4 py-2 rounded-full text-md">
+                &gt;
+            </button>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <section id="page2">
+        <div class="md:flex justify-between md:m-5 md:gap-3">
+            <div class="hidden bg-white md:flex md:flex-col md:w-[35vw] md:rounded-md">
+                <h2 class="py-2 px-4">CATEGORY</h2>
+
+                <h4 class="px-4 py-2 hover:bg-gray-300 rounded cursor-pointer"><a href="#page2">Phone & Tablet</a></h4>
+                <p class="py-1 px-8 hover:bg-gray-300 rounded cursor-pointer">Mobile</p>
+                <p class="py-1 px-8 hover:bg-gray-300 rounded cursor-pointer">Mobile</p>
+                <p class="py-1 px-8 hover:bg-gray-300 rounded cursor-pointer">Mobile</p>
+                <p class="py-1 px-8 hover:bg-gray-300 rounded cursor-pointer">Mobile</p>
+                <p class="py-1 px-8 hover:bg-gray-300 rounded cursor-pointer">Mobile</p>
+                <p class="py-1 px-8 hover:bg-gray-300 rounded cursor-pointer">Mobile</p>
+                <p class="py-1 px-8 hover:bg-gray-300 rounded cursor-pointer">Mobile</p>
+
+                <div class="border-b-[1px] border-black"></div>
+
+                <h2 class="px-4 ">Brand</h2>
+                <label class="relative w-[25vw] m-3 block">
+                    <!-- Icon -->
+                    <span class="absolute left-3 top-1/2 -translate-y-1/2 text-black">
+                        <i class="bi bi-search"></i>
+                    </span>
+
+                    <!-- Input -->
+                    <input type="search" placeholder="Search"
+                        class="w-full border border-black rounded-full pl-10 pr-2 py-2 focus:outline-none focus:border-black">
+                </label>
+<div class="overflow-y-auto h-[40vh] border-b-[1px] border-black">
+<label for="radio">
+    <input type="radio" form="radio"> Ace Elec
+</label>
+</div>
+            </div>
+
+            <div class="hidden  bg-white md:flex   md:w-[65vw] md:rounded-md">
+
+            </div>
+        </div>
+    </section>
+    <!--FOR MOBILE VIEW-->
+    <div class="flex flex-row cursor-pointer md:hidden bg-white">
+        <div class="bg-gray-300 py-1 px-3 rounded-lg text-orange-500 md:hidden  m-1 text-sm"><a href="#">🚚 EXPRESS</a>
+        </div>
+        <div id="dropdown" class="bg-gray-300 py-1 px-3 rounded-lg text-black md:hidden  m-1 text-sm">Brand <span
+                class="text-md"> ˅</span></div>
+        <div id="dropdown" class="bg-gray-300 py-1 px-3 rounded-lg text-black md:hidden  m-1 text-sm">Price <span
+                class="text-md"> ˅</span></div>
+    </div>
+<h3 class="md:hidden">PHONE, TABLETS & ACCESSORIES</h3>
+<div class="md:hidden overflow-x-auto snap-x snap-mandatory flex space-x-2 py-2 px-3">
+  <span class="whitespace-nowrap font-semibold snap-start">Related results:</span>
+  
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Samsung a6 tablet</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Dewormer tablets for dogs</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+   <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Kindle tablets for reading</a>
+  <span class="text-gray-500">|</span>
+
+   <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablet for seniors</a>
+  <span class="text-gray-500">|</span>
+
+   <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablet for kitchen</a>
+  <span class="text-gray-500">|</span>
+
+   <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Lenovo 2024 tablet</a>
+  <span class="text-gray-500">|</span>
+
+   <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Fire tablet 10</a>
+  <span class="text-gray-500">|</span>
+
+   <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Long battery tablet</a>
+  <span class="text-gray-500">|</span>
+
+   <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">B12 sublingual tablets</a>
+  <span class="text-gray-500">|</span>
+
+ <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+   <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+
+  <a href="#" class="text-orange-500 border-b-[1px] border-orange-500 snap-start whitespace-nowrap">Tablets for clean water</a>
+  <span class="text-gray-500">|</span>
+</div>
 
 
 </body>
