@@ -12,14 +12,57 @@
 <body class="bg-gray-200 w-full">
     
 <!--FIRST HEADER-->
-
-<div class="bg-black flex justify-around  text-white h-30 w-full top-0  px-2 py-2">
-        <p class="hidden sm:block lg:text-base">Summer Sale For All Swim Suits And Free Express Delivery-OFF 50%! <a
+<div class="bg-black flex justify-around  text-white h-[35px]  w-full top-0  px-2 py-2 lg:h-[40px]">
+        <p class="hidden sm:text-sm sm:block lg:text-sm">Summer Sale For All Swim Suits And Free Express Delivery-OFF 50%! <a
                 href="#" class="border-white border-b-[0.95px] w-auto">ShopNow</a></p>
-        <p class="sm:hidden md:hidden lg:hidden 2xl:hidden text-xs sm:text-base">Summer Sale! Free Express Delivery -
+        <p class="text-xs sm:hidden md:hidden lg:hidden 2xl:hidden">Summer Sale! Free Express Delivery -
             50% Off</p>
         <p class="text-sm">English ˅</p>
     </div>
+
+<!--SECOND HEADER-->
+<div
+        class="sticky top-0 z-50 py-2 px-3 bg-white flex justify-between items-center gap-5 border-b-[1px] border-black w-full h-fit  md:py-2 lg:px-7 lg:py-3">
+
+        <!--LOGO-->
+        <h1
+            class="text-md  items-center sm:text-lg font-bold  sm:flex sm:justify-between sm:gap-5 lg:text-xl">
+            <!--MENU BUTTON-->
+            <div class="hidden sm:flex  sm:text-2xl sm:font-bold  sm:justify-between sm:cursor-pointer">
+                <i class="bi bi-list-task"></i>
+            </div>
+            <a href="#">Exclusive</a>
+        </h1>
+
+
+
+        <!--INPUT SEARCH-->
+        <div class="flex justify-between gap-8">
+            <label class="relative" for="search">
+                <input
+                    class="hidden md:bg-gray-300 md:focus:outline-none  md:flex md:px-4 md:py-1  md:rounded-xl md:w-[45vw]"
+                    type="search" id="form" placeholder="what are you looking for?">
+                    <input class="hidden sm:flex sm:bg-gray-300 sm:focus:outline-none sm:px-3 sm:rounded-lg sm:text-sm sm:w-[35vw] sm:py-1 md:hidden" type="search" id="form" placeholder="Looking for something">
+            
+             <!-- Icon -->
+                    <a href="#"><span class="hidden sm:flex sm:absolute sm:right-3  sm:top-1/2 sm:-translate-y-1/2 text-black cursor-pointer">
+                        <i class="bi bi-search"></i>
+                    </span></a>
+                </label>
+            
+                <!--CART AND FAVOURITE ICON-->
+            <div class="hidden cursor-pointer sm:flex sm:gap-8 md:text-2xl">
+                <i class="bi bi-heart"></i>
+                <i class="bi bi-cart3"></i>
+            </div>
+        </div>
+
+        <!--MENU BUTTON-->
+        <div class="flex justify-between text-2xl sm:hidden">
+            <i class="bi bi-list-task"></i>
+        </div>
+    </div>
+
 
 
 </body>
