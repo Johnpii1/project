@@ -29,14 +29,8 @@
 
         <!--LOGO-->
         <h1 class="text-md  items-center sm:text-lg font-bold  sm:flex sm:justify-between sm:gap-5 lg:text-xl">
-            <!--MENU BUTTON-->
-            <div class="hidden sm:flex  sm:text-2xl sm:font-bold  sm:justify-between sm:cursor-pointer">
-                <i class="bi bi-list-task"></i>
-            </div>
             <a href="#">Exclusive</a>
         </h1>
-
-
 
         <!--INPUT SEARCH-->
         <div class="flex justify-between gap-8">
@@ -60,12 +54,141 @@
                 <i class="bi bi-heart"></i>
                 <i class="bi bi-cart3"></i>
             </div>
-        </div>
+       
 
         <!--MENU BUTTON-->
-        <div class="flex justify-between text-2xl sm:hidden">
-            <i class="bi bi-list-task"></i>
-        </div>
+        <div class="flex justify-between text-2xl cursor-pointer font-bold bg-black text-white  px-2 rounded-lg">
+            <i id="menuBtn" class="bi bi-list-task"></i>
+
+<!--MENU TEXT-->
+<ul id="menu" class="hidden absolute top-[3.1rem] text-black overflow-y-scroll max-h-screen shadow-md z-50 animate-slideRight w-[65%] flex-col right-0 space-y-8 bg-gray-50 p-8  h-fit md:text-md  top-[3.59rem]">
+    <li class="text-sm font-semibold sm:text-base  lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home</a>
+    </li>
+
+    <li class="text-sm font-semibold sm:text-base  lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">About</a>
+    </li>
+
+    <li class="text-sm font-semibold sm:text-base  lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Store</a>
+    </li>
+
+    <li class="text-sm font-semibold sm:text-base  lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">SignUp</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Women's Fashion</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Men's Fashion</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Electronics</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Phones & Gadgets</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Medicine</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Sports & Outdoors</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Baby's & Toys</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Groceries & Pets</a>
+    </li>
+
+    <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Health & Beauty</a>
+    </li>
+
+        <li class="text-sm md:hidden font-semibold sm:text-base lg:text-xl lg:hover:border-b lg:hover:border-gray-900">
+        <a href="#" class="block w-full">Home & Lifestyles</a>
+    </li>
+
+</ul>
+
+
+
+
+        </div> 
+    </div>
     </div>
 
     <!--PHONE & TABLETS LINK-->
